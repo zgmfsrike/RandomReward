@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','RewardController@index')->name('reward.home');
+Route::get('/random-reward','RewardController@randomReward')->name('reward.random');
+Route::post('/check-reward','RewardController@checkReward')->name('reward.check');

@@ -17,6 +17,9 @@ return [
         resource_path('views'),
     ],
 
+    'reward'=>[
+        'index'=>'reward.index'
+    ],
     /*
     |--------------------------------------------------------------------------
     | Compiled View Path

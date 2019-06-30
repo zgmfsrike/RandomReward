@@ -1,0 +1,25 @@
+body{
+    background-color: #f0f0f5;
+}
+#logo,#logo:hover{
+    color:white
+}
+#content{
+    background-color: white;
+}
+#reward-box{
+    background-color: #80ff80;
+    border: 2px solid black;
+    /* height: 100%; */
+    /* width: 70%; */
+}
+.text-reward{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+p{
+    margin: 1em;
+}
+.firstReward-box{
+    width: 50%;
+}
