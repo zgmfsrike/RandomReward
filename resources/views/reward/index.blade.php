@@ -99,7 +99,7 @@
                 @csrf
                 <input class="form-control  text-center " type="text" name="randomNumber" value="@if(isset($randomNumber)? $randomNumber:"")@endif">
                 <br>
-                <button type="submit" class="btn btn-primary ">ตรวจเช็คผลรางวัล</button>
+                <button type="submit" class="btn btn-primary ">ตรวจเช็คผลรางวัล!</button>
             </form>
 
         </div>
