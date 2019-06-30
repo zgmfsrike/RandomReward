@@ -1,5 +1,8 @@
 @extends('layouts.master')
 @section('content')
+    @php
+        $randomNumber = "";
+    @endphp
     @if(Session::has('reward'))
         @php
         $reward = Session::get('reward');
