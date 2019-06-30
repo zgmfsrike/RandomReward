@@ -19,7 +19,7 @@ class RewardController extends Controller
     public function index(){
         // $data = $this->service->mock();
         // Session::put('data',$data);
-        // Session::flush();
+        Session::flush();
         // session(['data' => $data]);
         // $reward = $this->service->generateReward();
         // dd($reward);

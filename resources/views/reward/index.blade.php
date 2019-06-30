@@ -97,7 +97,7 @@
             <p>หมายเลขของคุณ</p>
             <form class="justify-content-center" action="{{route('reward.check')}}" method="post">
                 @csrf
-                <input class="form-control  text-center " type="text" name="randomNumber" value="{{$randomNumber}}">
+                <input class="form-control  text-center " type="text" name="randomNumber" value="@if(isset($randomNumber)? $randomNumber:"")@endif">
                 <br>
                 <button type="submit" class="btn btn-primary ">ตรวจเช็คผลรางวัล</button>
             </form>
